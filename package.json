@@ -1,0 +1,18 @@
+{
+	"name": "website",
+	"version": "1.0.0",
+	"description": "My website",
+	"main": "index.html",
+	"author": "Alexiy Rybin",
+	"license": "MIT",
+	"scripts": {
+		"format": "npx prettier --write .",
+		"dev": "live-server ./src"
+	},
+	"devDependencies": {
+		"eslint": "^8.0.1",
+		"live-server": "^1.2.1",
+		"prettier": "^2.4.1",
+		"typescript": "^4.4.4"
+	}
+}
