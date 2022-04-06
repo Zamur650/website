@@ -1,19 +1,31 @@
 const typeText = (element, text) => {
 	element.innerHTML = ''
+	let i = text.length
 
 	const letters = text.split('')
 
 	const interval = setInterval(() => {
 		element.innerHTML += letters.shift()
 
-		if (element.innerHTML == text) clearInterval(interval)
+		if (element.innerHTML.length == i) {
+			element.classList.remove('blinking')
+			
+			clearInterval(interval)
+		}
 	}, 100)
 }
 
-const textName = document.getElementById('name')
-const text = 'Alexiy Rybin'
+const textName = [
+	{
+		element: document.getElementById('name'),
+		text: 'Alexiy Rybin'
+	},
+	{
+		element: document.getElementById('subName'),
+		text: 'uwury'
+	}
+]
 
-typeText(textName, text)
-
-//
-new QRCode(document.getElementById('qrcode'), document.URL)
+textName.forEach(text => {
+	typeText(text.element, text.text)
+})
