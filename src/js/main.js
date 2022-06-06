@@ -21,7 +21,7 @@ const textName = [
 		text: 'Alexiy Rybin'
 	},
 	{
-		element: document.getElementById('subName'),
+		element: document.getElementById('nickName'),
 		text: 'uwury'
 	}
 ]
