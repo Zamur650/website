@@ -1,3 +1,9 @@
 # website
 
-[Link to my website](https://rybin.vercel.app/)
+![screenshot](src/assets/img/website.png)
+
+## Links
+
+<https://rybin.vercel.app/>
+
+<https://uwury.vercel.app/>
