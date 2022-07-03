@@ -6,4 +6,4 @@
 
 <https://rybin.vercel.app/>
 
-<https://uwury.vercel.app/>
+<https://taprisu.vercel.app/>

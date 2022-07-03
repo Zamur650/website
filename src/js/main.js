@@ -18,11 +18,11 @@ const typeText = (element, text) => {
 const textName = [
 	{
 		element: document.getElementById('name'),
-		text: 'Alexiy Rybin'
+		text: 'Aleksei Rybin'
 	},
 	{
 		element: document.getElementById('nickName'),
-		text: 'uwury'
+		text: 'taprisu'
 	}
 ]
 
