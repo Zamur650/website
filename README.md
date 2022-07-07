@@ -6,4 +6,4 @@
 
 <https://rybin.vercel.app/>
 
-<https://taprisu.vercel.app/>
+<https://taerisu.vercel.app/>
