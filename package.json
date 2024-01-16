@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"format": "npx prettier --write .",
-		"dev": "live-server ./src"
+		"dev": "live-server ."
 	},
 	"devDependencies": {
 		"live-server": "^1.2.2",
