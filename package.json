@@ -2,15 +2,14 @@
 	"name": "website",
 	"version": "1.1.0",
 	"description": "My website",
-	"main": "./src/index.html",
-	"author": "Alexiy Rybin",
+	"author": "Aleksei Rybin <0xalekseirybin@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"format": "npx prettier --write .",
 		"dev": "live-server ./src"
 	},
 	"devDependencies": {
-		"live-server": "^1.2.1",
-		"prettier": "^2.4.1"
+		"live-server": "^1.2.2",
+		"prettier": "^3.2.2"
 	}
 }
